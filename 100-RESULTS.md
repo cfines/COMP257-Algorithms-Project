@@ -47,7 +47,10 @@ commentary goes here
   <img src="/images/100-nodes/100-Nodes-5-Tags-Queried.png" width="500" />
 </p>
 
-commentary goes here
+### Regarding the runtimes for Brute Force, Greedy, and Dynamic in this table: 
+* When querying 5 tags on the 100 node graph with a setting of 3, 5, and 8 results, only 1 result showed up.
+* This means there existed only a single manga that contained the tags in the inputted query, ``Ghosts,Magic,Fantasy,Mystery,Demons``
+* Additionally, the runtime provided is the time it took to find the one and only search result.
 
 ---
 
