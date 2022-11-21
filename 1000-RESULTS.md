@@ -1,4 +1,4 @@
-# 1000 Node Graph
+# 10 Node Graph
 Time units are in seconds.
 
 
@@ -9,7 +9,9 @@ Time units are in seconds.
   | Greedy      | 
   | Dynamic     | 
 
-![1000 Nodes, 1 Tag Queried](/images/1000-nodes/1000-Nodes-1-Tag-Queried.png)
+<p float="left">
+  <img src="" width="500" />
+</p>
 
 commentary goes here
 
@@ -24,7 +26,9 @@ commentary goes here
   | Greedy      | 
   | Dynamic     | 
 
-![1000 Nodes, 3 Tags Queried](/images/1000-nodes/1000-Nodes-3-Tags-Queried.png)
+<p float="left">
+  <img src="" width="500" />
+</p>
 
 commentary goes here
 
@@ -39,7 +43,9 @@ commentary goes here
   | Greedy      | 
   | Dynamic     | 
 
-![1000 Nodes, 3 Tags Queried](/images/1000-nodes/1000-Nodes-5-Tags-Queried.png)
+<p float="left">
+  <img src="" width="500" />
+</p>
 
 commentary goes here
 
@@ -53,7 +59,9 @@ commentary goes here
   | Greedy      | 
   | Dynamic     | 
 
-![1000 Nodes, 3 Tags Queried](/images/1000-nodes/1000-Nodes-No-Match-Query.png)
+<p float="left">
+  <img src="" width="500" />
+</p>
 
 commentary goes here
 
@@ -62,3 +70,15 @@ commentary goes here
 
 
 ## The graphs with the same Y-axis scale
+
+<p float="left">
+  <img src="" width="500" />
+  <img src="" width="500" /> 
+</p>
+
+<p float="left">
+  <img src="" width="500" />
+  <img src="" width="500" /> 
+</p>
+
+
