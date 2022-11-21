@@ -65,6 +65,6 @@ I have measured the runtimes of each algorithm producing results from a query co
 * [10000 Nodes](/10000-RESULTS.md)
 
 ### Runtime of the 3 Algorithms Compared Between their Graph Sizes:
-* [Brute Force]()
-* [Greedy]()
-* [Dynamic]()
+* [Brute Force](/Brute-Force.md)
+* [Greedy](/Greedy.md)
+* [Dynamic](/Dynamic.md)
