@@ -9,7 +9,9 @@ Time units are in seconds.
   | Greedy      | 0.0004618	| 0.0007567	| 0.0013595 |
   | Dynamic     | 0.0001224	| 0.0001908	| 0.0003122 |
 
-![100 Nodes, 1 Tag Queried](/images/100-nodes/100-Nodes-1-Tag-Queried.png)
+<p float="left">
+  <img src="/images/100-nodes/100-Nodes-1-Tag-Queried.png" width="500" />
+</p>
 
 commentary goes here
 
@@ -24,7 +26,9 @@ commentary goes here
   | Greedy      | 0.0004749	| 0.0016283	| 0.0082615 |
   | Dynamic     | 0.0001213	| 0.0001995	| 0.0003287 |
 
-![100 Nodes, 3 Tags Queried](/images/100-nodes/100-Nodes-3-Tags-Queried.png)
+<p float="left">
+  <img src="/images/100-nodes/100-Nodes-3-Tags-Queried.png" width="500" />
+</p>
 
 commentary goes here
 
@@ -39,7 +43,9 @@ commentary goes here
   | Greedy      | 0.0001639	| 0.0001639	| 0.0084734 |
   | Dynamic     | 3.89E-05	| 3.68E-05	| 3.86E-05  |
 
-![100 Nodes, 3 Tags Queried](/images/100-nodes/100-Nodes-5-Tags-Queried.png)
+<p float="left">
+  <img src="/images/100-nodes/100-Nodes-5-Tags-Queried.png" width="500" />
+</p>
 
 commentary goes here
 
@@ -53,7 +59,9 @@ commentary goes here
   | Greedy      | 0.0084853	| 0.008502	| 0.0089906 |
   | Dynamic     | 0.003946	| 0.0034638	| 0.0036073 |
 
-![100 Nodes, 3 Tags Queried](/images/100-nodes/100-Nodes-No-Match-Query.png)
+<p float="left">
+  <img src="/images/100-nodes/100-Nodes-No-Match-Query.png" width="500" />
+</p>
 
 commentary goes here
 
@@ -62,3 +70,15 @@ commentary goes here
 
 
 ## The graphs with the same Y-axis scale
+
+<p float="left">
+  <img src="/images/100-nodes/same-y-axis/100-1-y.png" width="500" />
+  <img src="/images/100-nodes/same-y-axis/100-3-y.png" width="500" /> 
+</p>
+
+<p float="left">
+  <img src="/images/100-nodes/same-y-axis/100-5-y.png" width="500" />
+  <img src="/images/100-nodes/same-y-axis/100-none-y.png" width="500" /> 
+</p>
+
+
