@@ -31,7 +31,7 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 * The second for loop iterates through ``neighbors``, appending values to the list ``quantity_list``. This will be of length n. This n is attributed to the amount of neighbors existing in the current node (that haven't been visited). 
 * The third for loop iterates through ``neighbors`` again, appending values to the dictionary ``temp_dict``. Once again, this n is attributed to the amount of neighbors in the current node (that haven’t been visited). 
 * The fourth for loop iterates through ``temp_dict``, which will also be of length n. Within this loop, the function is called recursively
-* Excluding the recursive aspect, none of these for loops in the function are nested within each other. However, considering the recursion that happens n times (in the fourth loop), the runtime complexity will be O(n^4) for the greedy algorithm.
+* Excluding the recursive aspect, none of these for loops in the function are nested within each other. Thus, the fuction without the recursion would be O(n). Now, we know the recursion is called O(n) times, so the entire algorithm would be O(n^2).
 
 
 ### Dynamic Pseudo Code
