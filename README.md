@@ -20,7 +20,7 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 
 ### Greedy Pseudo Code
 <p float="left">
-  <img src="/images/pseudo-code/greedy1" width="500" />
+  <img src="/images/pseudo-code/greedy1.png" width="500" />
 </p>
 <p float="left">
   <img src="/images/pseudo-code/greedy2.png" width="500" />
