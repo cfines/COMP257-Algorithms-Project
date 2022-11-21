@@ -1,4 +1,4 @@
-# 100 Node Graph
+# Greedy
 Time units are in seconds.
 
 
@@ -11,7 +11,7 @@ Time units are in seconds.
 
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-1-Tag-Queried.png" width="500" />
+  <img src="/images/algo-comparison/greedy/1-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -28,7 +28,7 @@ commentary goes here
   | 10000 Nodes  | 0.043922	 | 0.3028635 | 1.3221859 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-3-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/greedy/3-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -45,7 +45,7 @@ commentary goes here
   | 10000 Nodes  | 2.6492277 | 2.6285536 | 2.6559949 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-5-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/greedy/5-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -61,7 +61,7 @@ commentary goes here
   | 10000 Nodes  | 3.4542833 | 3.606721	 | 3.5390398 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-No-Match-Query.png" width="500" />
+  <img src="/images/algo-comparison/greedy/none-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -73,12 +73,12 @@ commentary goes here
 ## The graphs with the same Y-axis scale
 
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-1-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-3-y.png" width="500" /> 
+  <img src="/images/algo-comparison/greedy/same-y-axis/1-query-y.png" width="500" />
+  <img src="/images/algo-comparison/greedy/same-y-axis/3-query-y.png" width="500" /> 
 </p>
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-5-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-none-y.png" width="500" /> 
+  <img src="/images/algo-comparison/greedy/same-y-axis/5-query-y.png" width="500" />
+  <img src="/images/algo-comparison/greedy/same-y-axis/none-query-y.png" width="500" /> 
 </p>
 
 
