@@ -50,7 +50,7 @@ Time units are in seconds.
 ### Regarding the runtimes for Brute Force, Greedy, and Dynamic in this table: 
 * When querying 5 tags on the 100 node graph with a setting of 3, 5, and 8 results, only 1 result showed up.
 * This means there existed only a single manga that contained the tags in the inputted query, ``Ghosts,Magic,Fantasy,Mystery,Demons``
-* Additionally, the runtime provided is the time it took to find the one and only search result.
+* Thus, the runtime provided is the time it took to find the one and only search result.
 
 ---
 
