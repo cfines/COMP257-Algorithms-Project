@@ -1,4 +1,4 @@
-# 100 Node Graph
+# Dynamic
 Time units are in seconds.
 
 
@@ -11,7 +11,7 @@ Time units are in seconds.
 
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-1-Tag-Queried.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/1-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -28,7 +28,7 @@ commentary goes here
   | 10000 Nodes  | 0.0002073 | 0.0002884 | 0.0003543 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-3-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/3-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -45,7 +45,7 @@ commentary goes here
   | 10000 Nodes  | Stack Overflow | Stack Overflow | Stack Overflow | 
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-5-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/5-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -61,7 +61,7 @@ commentary goes here
   | 10000 Nodes  | Stack Overflow | Stack Overflow | Stack Overflow |  
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-No-Match-Query.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/none-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -73,12 +73,12 @@ commentary goes here
 ## The graphs with the same Y-axis scale
 
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-1-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-3-y.png" width="500" /> 
+  <img src="/images/algo-comparison/dynamic/same-y-axis/1-query-y.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/same-y-axis/3-query-y.png" width="500" /> 
 </p>
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-5-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-none-y.png" width="500" /> 
+  <img src="/images/algo-comparison/dynamic/same-y-axis/5-query-y.png" width="500" />
+  <img src="/images/algo-comparison/dynamic/same-y-axis/none-query-y.png" width="500" /> 
 </p>
 
 
