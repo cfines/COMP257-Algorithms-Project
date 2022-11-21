@@ -68,3 +68,14 @@ I have measured the runtimes of each algorithm producing results from a query co
 * [Brute Force](/Brute-Force.md)
 * [Greedy](/Greedy.md)
 * [Dynamic](/Dynamic.md)
+
+## Verdict
+
+I intend to make to make my own personal manga library gui in the future, and using this project I was able to explore how I'd go about maying my own auto-suggest feature for a search bar, even though I'd probably just take it from something that already exists. Regardless, I'd realistically have less than 1000 manga in my library, and my default maximum search results was originally only 5. So, the following graph best represents a realistic situation for me personally.
+
+<p float="left">
+  <img src="/images//images/1000-nodes/1000-Nodes-5-Tag-Queried.png" width="500" />
+</p>
+
+Surprisingly (or unsurprisingly), brute force has the fastest runtime out of all 3 algorithms, even if the time difference is absolutely negligible because its is in fractions of a second. With larger graphs, there is an obvious increase in runtime for Greedy and Dynamic. Used in both Greedy and Dynamic is ``node_now_visited()``. This is some extra boilerplate that converts the attribute of the current node from a dictionary to a set, changes the last element in the set (from false to true), turns it back into a dictionary, and adds it back into the graph. The more nodes there are, the more nodes are going to have to be marked visited. In retrospect, I could have made a separate attribute to store this boolean instead of storing it in one large dictionary, but I never considered it until writing this section. Additionally, Greedy has even more boilerplate, like assigning all neighboring nodes into a list, assigning the quantity of tags for each neighbor into another list, creating a dictionary that stores both lists, sorting the dictionary, then looping through the dictionary. Once again, in retrospect I could have utilized networkx more and made separate identifying attributes instead of storing everything in a dictionary. Brute force does not modify any attributes in each vertex because it does not need to. It sequentially iterates through every node and only runs the comparison between the query and the tags of the specific vertex. Based on the graph above, I recommend brute force, as it runs the fastest relative to the other two algorithms. 
+
