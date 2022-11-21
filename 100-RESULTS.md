@@ -75,7 +75,6 @@ commentary goes here
   <img src="/images/100-nodes/same-y-axis/100-1-y.png" width="500" />
   <img src="/images/100-nodes/same-y-axis/100-3-y.png" width="500" /> 
 </p>
-
 <p float="left">
   <img src="/images/100-nodes/same-y-axis/100-5-y.png" width="500" />
   <img src="/images/100-nodes/same-y-axis/100-none-y.png" width="500" /> 
