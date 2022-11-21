@@ -14,7 +14,7 @@ Time units are in seconds.
   <img src="/images/algo-comparison/greedy/1-query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -31,7 +31,7 @@ commentary goes here
   <img src="/images/algo-comparison/greedy/3-query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -48,7 +48,7 @@ commentary goes here
   <img src="/images/algo-comparison/greedy/5-query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 ---
 
@@ -64,7 +64,7 @@ commentary goes here
   <img src="/images/algo-comparison/greedy/none-query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
