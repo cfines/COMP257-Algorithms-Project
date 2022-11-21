@@ -13,7 +13,7 @@ Time units are in seconds.
   <img src="/images/1000-nodes/1000-Nodes-1-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -30,7 +30,7 @@ commentary goes here
   <img src="/images/1000-nodes/1000-Nodes-3-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -47,7 +47,10 @@ commentary goes here
   <img src="/images/1000-nodes/1000-Nodes-5-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+### Regarding the runtimes for Brute Force, Greedy, and Dynamic in this table: 
+* When querying 5 tags on the 1000 node graph with a setting of 3, 5, and 8 results, only 1 result showed up.
+* This means there existed only a single manga that contained the tags in the inputted query, ``Ghosts,Magic,Fantasy,Mystery,Demons``
+* Additionally, the runtime provided is the time it took to find the one and only search result.
 
 ---
 
@@ -63,7 +66,7 @@ commentary goes here
   <img src="/images/1000-nodes/1000-Nodes-No-Match-Query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
