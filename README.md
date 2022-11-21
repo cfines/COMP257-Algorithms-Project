@@ -15,6 +15,7 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 <p float="left">
   <img src="/images/pseudo-code/brute-force.png" width="500" />
 </p>
+
 * Brute Force will run for O(n) due to the for loop, where n is the number of nodes of the graph.
 
 
@@ -25,6 +26,7 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 <p float="left">
   <img src="/images/pseudo-code/greedy2.png" width="500" />
 </p>
+
 * The first for loop gathers all neighbors of the current node and appends them into ``neighbors``. This will be of length n. This n is attributed to the amount of neighbors existing in the current node (that haven't been visited). 
 * The second for loop iterates through ``neighbors``, appending values to the list ``quantity_list``. This will be of length n. This n is attributed to the amount of neighbors existing in the current node (that haven't been visited). 
 * The third for loop iterates through ``neighbors`` again, appending values to the dictionary ``temp_dict``. Once again, this n is attributed to the amount of neighbors in the current node (that haven’t been visited). 
@@ -36,6 +38,7 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 <p float="left">
   <img src="/images/pseudo-code/dynamic.png" width="500" />
 </p>
+
 * This is adapted from [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 * The time complexity of this algorithm is O(|V| + |E|) where V is the number of nodes and E is the number of edges.
 * The algorithm will iterate through all nodes that neighbor the current node. It will recurse the function, where the current neighbor of the iteration is passed ONLY if that neighbor has not been visited. 
@@ -45,13 +48,13 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 ## Caveats 
 There are universal trends regarding combinations of tags in manga (or any form of media for that matter). For example, “adventure” is almost always paired with “action.” “Romance” is almost always paired with “School” or “Drama.” While it would grant me more practical results if I were to manually add real manga titles and their actual tags, it is not practical in the interest of time. Especially when I want to add 1000 nodes. (The runtime of the graph with 100 nodes is merely a fraction of a second, and I want longer runtimes for more comparable values to analyze.) Additionally, writing a webhook to scrape the tags off the website I get these tags from is outside the scope of this project. Therefore I have randomized a combination of tags for fake manga titles (title_50, 51, 52… title_n) with a random triangular distribution of the quantity of tags per title, where the min = 5, max = 25, mode = 12. 
 
-## Clarification of the displayed results
+## Clarification of the Displayed Results
 The query results are basically first come first serve. The order that the query results appear in is based on the algorithm used. There may be different match results based on the algorithm used. For example:
 * Brute force sequentially iterates through all nodes of the graph. Thus, matches found and displayed are based on the numerical order of the nodes in the graph. 
 * Greedy finds matches in the order of quantity of tags. Thus the first result (excluding if the starting node is a match) has the most tags and the last result has the least tags.
 * Dynamic finds matches based on the first neighbor of the current node, then the first neighbor of that node, then the first neighbor of that node and so on and so forth. 
 
-## Data collected
+## Data Collected
 I have measured the runtimes of each algorithm producing results from a query containing 1, 3, and 5 tags and a no-match query (0 matches will come out of this query) from manga graphs that consist of 100, 1000, and 10000 nodes. Additionally,  the maximum results found before exiting the algorithms will be 3, 5, 8 search results.
 
 Results:
