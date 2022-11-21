@@ -1,4 +1,4 @@
-# 100 Node Graph
+# Brute Force
 Time units are in seconds.
 
 
@@ -11,7 +11,7 @@ Time units are in seconds.
 
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-1-Tag-Queried.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/1-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -28,7 +28,7 @@ commentary goes here
   | 10000 Nodes  | 0.0002019 | 0.0002469 | 0.0003483 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-3-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/3-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -45,7 +45,7 @@ commentary goes here
   | 10000 Nodes  | 0.0115555 | 0.0150756 | 0.017467  |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-5-Tags-Queried.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/5-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -61,7 +61,7 @@ commentary goes here
   | 10000 Nodes  | 0.0124322 | 0.0155161 | 0.0116647 |
 
 <p float="left">
-  <img src="/images/100-nodes/100-Nodes-No-Match-Query.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/none-query.png" width="500" />
 </p>
 
 commentary goes here
@@ -73,12 +73,12 @@ commentary goes here
 ## The graphs with the same Y-axis scale
 
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-1-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-3-y.png" width="500" /> 
+  <img src="/images/algo-comparison/brute-force/same-y-axis/1-query-y.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/same-y-axis/3-query-y.png" width="500" /> 
 </p>
 <p float="left">
-  <img src="/images/100-nodes/same-y-axis/100-5-y.png" width="500" />
-  <img src="/images/100-nodes/same-y-axis/100-none-y.png" width="500" /> 
+  <img src="/images/algo-comparison/brute-force/same-y-axis/5-query-y.png" width="500" />
+  <img src="/images/algo-comparison/brute-force/same-y-axis/none-query-y.png" width="500" /> 
 </p>
 
 
