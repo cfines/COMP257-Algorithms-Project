@@ -12,13 +12,19 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 
 
 ### Brute Force Pseudo Code
-![Brute Force Pseudo Code](/images/pseudo-code/brute-force.png)
+<p float="left">
+  <img src="/images/pseudo-code/brute-force.png" width="500" />
+</p>
 * Brute Force will run for O(n) due to the for loop, where n is the number of nodes of the graph.
 
 
 ### Greedy Pseudo Code
-![Greedy1 Pseudo Code](/images/pseudo-code/greedy1.png)
-![Greedy2 Force Pseudo Code](/images/pseudo-code/greedy2.png)
+<p float="left">
+  <img src="/images/pseudo-code/greedy1" width="500" />
+</p>
+<p float="left">
+  <img src="/images/pseudo-code/greedy2.png" width="500" />
+</p>
 * The first for loop gathers all neighbors of the current node and appends them into ``neighbors``. This will be of length n. This n is attributed to the amount of neighbors existing in the current node (that haven't been visited). 
 * The second for loop iterates through ``neighbors``, appending values to the list ``quantity_list``. This will be of length n. This n is attributed to the amount of neighbors existing in the current node (that haven't been visited). 
 * The third for loop iterates through ``neighbors`` again, appending values to the dictionary ``temp_dict``. Once again, this n is attributed to the amount of neighbors in the current node (that haven’t been visited). 
@@ -27,7 +33,9 @@ Every node will contain an attribute. This attribute is a dictionary. The key of
 
 
 ### Dynamic Pseudo Code
-![Dynamic Pseudo Code](/images/pseudo-code/dynamic.png)
+<p float="left">
+  <img src="/images/pseudo-code/dynamic.png" width="500" />
+</p>
 * This is adapted from [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 * The time complexity of this algorithm is O(|V| + |E|) where V is the number of nodes and E is the number of edges.
 * The algorithm will iterate through all nodes that neighbor the current node. It will recurse the function, where the current neighbor of the iteration is passed ONLY if that neighbor has not been visited. 
@@ -46,4 +54,7 @@ The query results are basically first come first serve. The order that the query
 ## Data collected
 I have measured the runtimes of each algorithm producing results from a query containing 1, 3, and 5 tags and a no-match query (0 matches will come out of this query) from manga graphs that consist of 100, 1000, and 10000 nodes. Additionally,  the maximum results found before exiting the algorithms will be 3, 5, 8 search results.
 
-My findings are found [here](/RESULTS.md)
+Results:
+* [100 Nodes](/100-RESULTS.md)
+* [1000 Nodes](/1000-RESULTS.md)
+* [10000 Nodes](/10000-RESULTS.md)
