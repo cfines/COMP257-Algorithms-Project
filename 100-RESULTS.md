@@ -13,7 +13,7 @@ Time units are in seconds.
   <img src="/images/100-nodes/100-Nodes-1-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -30,7 +30,7 @@ commentary goes here
   <img src="/images/100-nodes/100-Nodes-3-Tags-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -66,7 +66,7 @@ commentary goes here
   <img src="/images/100-nodes/100-Nodes-No-Match-Query.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
