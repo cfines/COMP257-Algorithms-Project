@@ -13,7 +13,7 @@ Time units are in seconds.
   <img src="/images/10000-nodes/10000-Nodes-1-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -30,7 +30,7 @@ commentary goes here
   <img src="/images/10000-nodes/10000-Nodes-3-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+
 
 
 ---
@@ -47,7 +47,9 @@ commentary goes here
   <img src="/images/10000-nodes/10000-Nodes-5-Tag-Queried.png" width="500" />
 </p>
 
-commentary goes here
+### Regarding the runtimes Dynamic:
+* Even though I increase the maximum recursion limit, I did not raise the maximum stack size. Thus, this results in a stack overflow.
+* I don't think it's a good idea to increase the maximum stack size, since I won't know exactly what I'm doing and it sounds like it can lead to consequences.
 
 ---
 
@@ -63,7 +65,9 @@ commentary goes here
   <img src="/images/10000-nodes/10000-Nodes-No-Match-Query.png" width="500" />
 </p>
 
-commentary goes here
+### Regarding the runtimes Dynamic:
+* Same as above. Even though I increase the maximum recursion limit, I did not raise the maximum stack size. Thus, this results in a stack overflow.
+* I don't think it's a good idea to increase the maximum stack size, since I won't know exactly what I'm doing and it sounds like it can lead to consequences.
 
 
 ---
