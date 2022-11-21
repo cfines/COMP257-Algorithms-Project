@@ -59,12 +59,12 @@ I have measured the runtimes of each algorithm producing results from a query co
 
 ## Results
 
-### Runtime of Varying Graph Sizes with Varying Number of Queries
+### X-Axis: Maximum Result, Y-Axis: Algorithm Used
 * [100 Nodes](/100-RESULTS.md)
 * [1000 Nodes](/1000-RESULTS.md)
 * [10000 Nodes](/10000-RESULTS.md)
 
-### Runtime of the 3 Algorithms Compared Between their Graph Sizes:
+### X-Axis: Maximum Result, Y-Axis: Size of Graph
 * [Brute Force](/Brute-Force.md)
 * [Greedy](/Greedy.md)
 * [Dynamic](/Dynamic.md)
