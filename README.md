@@ -55,7 +55,7 @@ The query results are basically first come first serve. The order that the query
 * Dynamic finds matches based on the first neighbor of the current node, then the first neighbor of that node, then the first neighbor of that node and so on and so forth. 
 
 ## Data Collected
-I have measured the runtimes of each algorithm producing results from a query containing 1, 3, and 5 tags and a no-match query (0 matches will come out of this query) from manga graphs that consist of 100, 1000, and 10000 nodes. Additionally,  the maximum search results found before exiting the algorithms will be 3, 5, 8 search results. The runtimes collected is the time it takes to find the maximum number of search results 3, 5, or 8. *There may exist some search results that were only able to find results less than the maximum. It will be specified if this occurs. When this happens, the runtime of the last search result is recorded.*
+I have measured the runtimes of each algorithm producing results from a query containing 1, 3, and 5 tags and a no-match query (0 matches will come out of this query) from manga graphs that consist of 100, 1000, and 10000 nodes. Additionally,  the maximum search results found before exiting the algorithms will be 3, 5, 8 search results. The runtimes collected is the time it takes to find the maximum number of search results 3, 5, or 8. *There may exist some search results that were only able to find results less than the maximum. It will be specified if this occurs (only in the first 3 links below. Onwards I'd just be repeating myself). When this happens, the runtime of the last search result is recorded.*
 
 ## Results
 
