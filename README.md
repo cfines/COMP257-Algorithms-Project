@@ -46,3 +46,4 @@ The query results are basically first come first serve. The order that the query
 ## Data collected
 I have measured the runtimes of each algorithm producing results from a query containing 1, 3, and 5 tags and a no-match query (0 matches will come out of this query) from manga graphs that consist of 100, 1000, and 10000 nodes. Additionally,  the maximum results found before exiting the algorithms will be 3, 5, 8 search results.
 
+My findings are found [here](/RESULTS.md)
