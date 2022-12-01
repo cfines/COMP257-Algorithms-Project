@@ -71,7 +71,7 @@ I have measured the runtimes of each algorithm producing results from a query co
 
 ## Verdict
 
-I intend to make to make my own personal manga library gui in the future, and using this project I was able to explore how I'd go about maying my own auto-suggest feature for a search bar, even though I'd probably just take it from something that already exists. Regardless, I'd realistically have less than 1000 manga in my library, and my default maximum search results was originally only 5. So, the following graph best represents a realistic situation for me personally.
+I intend to make to make my own personal manga library gui in the future, and using this project I was able to explore how I'd go about making my own auto-suggest feature for a search bar, even though I'd probably just take it from something that already exists. Regardless, I'd realistically have less than 1000 manga in my library, and my default maximum search results was originally only 5. So, the following graph best represents a realistic situation for me personally.
 
 <p float="left">
   <img src="/images/1000-nodes/1000-Nodes-5-Tag-Queried.png" width="500" />
